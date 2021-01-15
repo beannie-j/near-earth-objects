@@ -34,6 +34,7 @@ class NearEarthObject:
     """
     # TODO: How can you, and should you, change the arguments to this constructor?
     # If you make changes, be sure to update the comments in this file.
+
     def __init__(self, **info):
         """Create a new `NearEarthObject`.
 
@@ -86,6 +87,7 @@ class CloseApproach:
     """
     # TODO: How can you, and should you, change the arguments to this constructor?
     # If you make changes, be sure to update the comments in this file.
+
     def __init__(self, **info):
         """Create a new `CloseApproach`.
 
@@ -96,7 +98,8 @@ class CloseApproach:
         # You should coerce these values to their appropriate data type and handle any edge cases.
         # The `cd_to_datetime` function will be useful.
         self._designation = ''
-        self.time = None  # TODO: Use the cd_to_datetime function for this attribute.
+        # TODO: Use the cd_to_datetime function for this attribute.
+        self.time = None
         self.distance = 0.0
         self.velocity = 0.0
 
